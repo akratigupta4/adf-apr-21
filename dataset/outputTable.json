@@ -2,7 +2,7 @@
 	"name": "outputTable",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureSqlDatabase1",
+			"referenceName": "SQL",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
