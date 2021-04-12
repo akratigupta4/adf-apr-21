@@ -41,10 +41,10 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "inputCSV",
+						"referenceName": "DelimitedText1",
 						"type": "DatasetReference",
 						"parameters": {
-							"fileName": {
+							"filename": {
 								"value": "@pipeline().parameters.fileName",
 								"type": "Expression"
 							}
@@ -53,10 +53,10 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "outTable",
+						"referenceName": "planetable",
 						"type": "DatasetReference",
 						"parameters": {
-							"tableName": {
+							"tablename": {
 								"value": "@pipeline().parameters.tableName",
 								"type": "Expression"
 							}
