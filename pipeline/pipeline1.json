@@ -62,6 +62,9 @@
 		"parameters": {
 			"tableName": {
 				"type": "string"
+			},
+			"fileName": {
+				"type": "string"
 			}
 		},
 		"annotations": []
