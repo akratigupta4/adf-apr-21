@@ -42,10 +42,7 @@
 				"inputs": [
 					{
 						"referenceName": "DelimitedText1",
-						"type": "DatasetReference",
-						"parameters": {
-							"filename": "planes.csv"
-						}
+						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
