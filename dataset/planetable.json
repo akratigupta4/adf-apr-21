@@ -32,7 +32,10 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "Planes"
+			"table": {
+				"value": "@dataset().tablename",
+				"type": "Expression"
+			}
 		}
 	}
 }
