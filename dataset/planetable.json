@@ -1,0 +1,38 @@
+{
+	"name": "planetable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"tablename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ICAO",
+				"type": "nvarchar"
+			},
+			{
+				"name": "IATA",
+				"type": "nvarchar"
+			},
+			{
+				"name": "MAKER",
+				"type": "nvarchar"
+			},
+			{
+				"name": "DESCRIPTION",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Planes"
+		}
+	}
+}
